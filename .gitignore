@@ -1,1 +1,53 @@
+# macOS
 .DS_Store
+.AppleDouble
+.LSOverride
+
+# Python cache and environments
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# IDE and editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Secrets and credentials
+.env
+.env.*
+!.env.example
+auth.json
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Codex local configuration and private state
+config.toml
+state_*.sqlite
+state_*.sqlite-*
+logs_*.sqlite
+logs_*.sqlite-*
+session_index.jsonl
+sessions/
+archived_sessions/
+generated_images/
+
+# Generated reports and backups
+history_cleanup_reports/
+history_cleanup_backups/
+*.bak
+*.bak-*
+*.backup
+*.tar.gz
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
