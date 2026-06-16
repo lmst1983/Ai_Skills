@@ -1,0 +1,6 @@
+interface:
+  display_name: "Codex Chat History Cleaner"
+  short_description: "Safely clean Codex chat history"
+  default_prompt: "Use $codex-chat-history-cleaner to dry-run and clean Codex chat history safely, then provide the generated HTML report link."
+policy:
+  allow_implicit_invocation: true
